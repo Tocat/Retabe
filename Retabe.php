@@ -272,7 +272,7 @@ class Retabe {
 	{
 		@$this->my_connect = mysql_connect(SAE_MYSQL_HOST_M .':'.SAE_MYSQL_PORT,SAE_MYSQL_USER,SAE_MYSQL_PASS);
 		@$dbc = mysql_select_db(SAE_MYSQL_DB,$this->my_connect);
-		//echo 'ok3';
+		
 		$this->check();
 		if($this->_userstatus == 'new')
 		{
