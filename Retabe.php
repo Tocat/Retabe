@@ -300,7 +300,7 @@ class Retabe {
 		$this->_instance->getinfo();
 		$this->_instance->getphoto();
 		$this->_instance->getstatus();
-		$this->_instance->sendmessage();
+		
 		
 		
 		
